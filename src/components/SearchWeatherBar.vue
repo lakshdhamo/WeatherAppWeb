@@ -19,12 +19,12 @@
             />
           </div>
           <button type="submit">Search</button>
-          <button class="btn icon" @click="handleGetCurrentLocation">
+          <!-- <button class="btn icon" @click="handleGetCurrentLocation">
             <img
               src="../assets/icons/gps_fixed-24px.svg"
               alt="User Current location"
             />
-          </button>
+          </button> -->
         </form>
         <base-spinner v-if="isLoading"></base-spinner>
         <ul class="locations" v-else-if="showLocationList">
