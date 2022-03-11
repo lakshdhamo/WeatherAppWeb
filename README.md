@@ -9,6 +9,9 @@
 6. SearchWeatherBar - Used to get City name and search city list
 7. Store - Used Location, Unit, Weather stores to maintain the state
 
+## Project Configuration
+Backend service API URL can be configured in `src/services/serviceApi.ts`
+
 ## Project setup
 ```
 npm install
